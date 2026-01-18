@@ -20,6 +20,7 @@ const MDX_MAP: Record<string, React.ComponentType> = {
   photography101: Photography101,
   arcki: Arcki,
   octree: Octree,
+  echolag: Echolag,
 };
 
 export default function SlugPage({
