@@ -6,10 +6,16 @@ interface Post {
 }
 
 export const posts: Post[] = [
+   {
+    slug: "photography-101",
+    title: "some photos i took",
+    date: "jan 2026",
+    pinned: true,
+  },
   {
     slug: "uwreflection",
     title: "thoughts on uw cs",
-    date: "sep 2025",
+    date: "ongoing",
     pinned: false,
   },
 ];

@@ -9,11 +9,12 @@ import Uoguelphcourses from "./mdx/uoguelphcourses.mdx";
 // notes
 import Places from "./mdx/places.mdx";
 import UWReflection from "./mdx/uw-reflection.mdx";
-
+import Photography101 from "./mdx/photography-101.mdx";
 const MDX_MAP: Record<string, React.ComponentType> = {
   uwreflection: UWReflection,
   flowboard: Flowboard,
   uoguelphcourses: Uoguelphcourses,
+  photography101: Photography101,
 };
 
 export default function SlugPage({
