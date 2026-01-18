@@ -10,11 +10,15 @@ import Uoguelphcourses from "./mdx/uoguelphcourses.mdx";
 import Places from "./mdx/places.mdx";
 import UWReflection from "./mdx/uw-reflection.mdx";
 import Photography101 from "./mdx/photography-101.mdx";
+import Arcki from "./mdx/arcki.mdx";
+import Octree from "./mdx/octree.mdx";
 const MDX_MAP: Record<string, React.ComponentType> = {
   uwreflection: UWReflection,
   flowboard: Flowboard,
   uoguelphcourses: Uoguelphcourses,
   photography101: Photography101,
+  arcki: Arcki,
+  octree: Octree,
 };
 
 export default function SlugPage({
