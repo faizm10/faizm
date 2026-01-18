@@ -168,6 +168,9 @@ export default function Home() {
                               university of guelph
                             </LinkSlider>
                           </span>
+                          <span>·</span>
+                          <span className="font-bold">3x</span>
+                          <span>terms</span>
                         </span>
                       </h1>
                       {/* <h1 className="sideh1 lg:mb-0 mb-5 lg:bg-transparent rounded-lg pl-6 [-text-indent:1.5rem]">
