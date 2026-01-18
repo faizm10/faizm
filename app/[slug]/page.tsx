@@ -12,6 +12,7 @@ import UWReflection from "./mdx/uw-reflection.mdx";
 import Photography101 from "./mdx/photography-101.mdx";
 import Arcki from "./mdx/arcki.mdx";
 import Octree from "./mdx/octree.mdx";
+import Echolag from "./mdx/echolag.mdx";
 const MDX_MAP: Record<string, React.ComponentType> = {
   uwreflection: UWReflection,
   flowboard: Flowboard,
